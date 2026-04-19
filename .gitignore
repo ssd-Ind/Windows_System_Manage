@@ -1,0 +1,39 @@
+# Log files
+*.log
+logs/
+CitrixPowerManager.log
+PowerManager.log
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PowerShell modules
+*.psm1
+*.psd1
+
+# User-specific files
+*.user
+*.suo
+
+# Backup files
+*.bak
+*.backup
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled outputs
+*.dll
+*.exe
+*.pdb
+
+# Ignore any local test directories
+test/
+tmp/
